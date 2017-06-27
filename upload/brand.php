@@ -324,7 +324,7 @@ function brand_get_goods($brand_id, $cate, $size, $page, $sort, $order)
 }
 
 /**
- * 获得与指定品牌相关的分类
+ * 获得与指定品牌相关的分类3
  *
  * @access  public
  * @param   integer $brand
