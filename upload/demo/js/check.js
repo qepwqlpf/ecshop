@@ -11,7 +11,7 @@ var ui = "";
 Ajax.onRunning  = null;
 Ajax.onComplete = null;
 
-/* 鍦ㄥ崌绾ц繃绋嬩腑璋冪敤璇ユ柟娉 */
+/* 鍦ㄥ崌绾ц繃绋嬩腑璋冪敤璇ユ柟娉s2 */
 function startNotice() {
     $("js-monitor-loading").src = "images/loading.gif";
     $("js-monitor-wait-please").innerHTML = "<strong style='color:blue'>"
