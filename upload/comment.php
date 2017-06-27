@@ -31,7 +31,7 @@ $result = array('error' => 0, 'message' => '', 'content' => '');
 if (empty($_REQUEST['act']))
 {
     /*
-     * act 参数为空
+     * act 参数为空asdfasdfasf
      * 默认为添加评论内容
      */
     $cmt  = $json->decode($_REQUEST['cmt']);
@@ -67,7 +67,7 @@ if (empty($_REQUEST['act']))
                 $factor = intval($_CFG['comment_factor']);
                 if ($cmt->type == 0 && $factor > 0)
                 {
-                    /* 只有商品才检查评论条件 */
+                    /* 只有商品才检查评论条件asdfdasf */
                     switch ($factor)
                     {
                         case COMMENT_LOGIN :
